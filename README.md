@@ -1,4 +1,4 @@
-# HTML Test Pages
+# HTML and Markdown Test Pages
 
 Common HTML and Markdown element reference pages. 
 
@@ -32,5 +32,9 @@ To use `htmlt-test-page.html` or `markdown-test-page.html`:
 With Pandoc, you can generate the HTML using this command:
 
 `pandoc --metadata pagetitle="Markdown Test Page" --css ./style.css -s markdown-test-page.md -o markdown-test-page.html`
+
+
+HTML elements originally based on the [HTML test page](http://github.com/cbracco/html5-test-page) by [@cbracco](http://twitter.com/cbracco).
+
 
 
