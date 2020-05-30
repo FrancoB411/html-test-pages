@@ -1,5 +1,4 @@
-/* Add your styles here */
-
+/* Replace these styles with your own */
 html:before {
     animation: marquee 13s linear infinite, pulse 1s linear infinite;
     content: "Modify styles in ./style.css";
@@ -18,4 +17,4 @@ html:before {
     from {transform: translateX(-100%);}
     to   {transform: translateX(100vw);} 
 }
-
+/*------------------------------------*/
