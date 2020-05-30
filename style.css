@@ -1,5 +1,9 @@
 /* Replace these styles with your own */
-html:before {
+
+body {
+    overflow: hidden;
+}
+body:before {
     animation: marquee 13s linear infinite, pulse 1s linear infinite;
     content: "Modify styles in ./style.css";
     display: inline-block;
