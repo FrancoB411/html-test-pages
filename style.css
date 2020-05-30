@@ -1,1 +1,21 @@
 /* Add your styles here */
+
+html:before {
+    animation: marquee 13s linear infinite, pulse 1s linear infinite;
+    content: "Modify styles in ./style.css";
+    display: inline-block;
+    font-family: monospace;
+    margin-top: 16px;
+}
+
+@keyframes pulse {
+    0% {color: #001F3F;}
+    50% {color: #FF4136;}
+    100% {color: #001F3F;}
+}
+
+@keyframes marquee {
+    from {transform: translateX(-100%);}
+    to   {transform: translateX(100vw);} 
+}
+
